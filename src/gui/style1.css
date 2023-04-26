@@ -1,0 +1,13 @@
+
+#AnchorPane {
+    -fx-background-color: #f0f0f0;
+}
+
+#type, #description, #date {
+    -fx-text-fill: #ffffff;
+}
+
+#send, #cancel {
+    -fx-background-color: #337ab7;
+    -fx-text-fill: #ffffff;
+}
