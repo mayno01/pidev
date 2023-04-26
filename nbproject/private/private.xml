@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/EditReponseController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/entite/Reponse.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/DashbordReponseController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/service/IService.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/EditReponse.fxml</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/styleee.css</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/style2.css</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/service/Smstwilio.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/NewFXMain1.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/MailController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/service/ReponseService.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/entite/Reclamation.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/AddPersonneController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/style.css</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/style3.css</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/NewFXMain.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/AddReponseController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/StatController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/EditReclamationController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/TestFXController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/entite/ReponseRec.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/connexion/Connexion.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/service/ReclamationService.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/Reprec.csv</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/stylee.css</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/service/PersonneService.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/RecuperationController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/SMSController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/style4.css</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/AddReclamationController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/util/DataSource.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/Reprec.csv</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/DashbordReclamation.fxml</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/EditReclamation.fxml</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/DashbordReponse.fxml</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/entite/Pdf.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/DashbordReclamationController.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/AddReponse.fxml</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/SMS.fxml</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/entite/Personne.java</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/app.css</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/mail.fxml</file>
+            <file>file:/C:/Users/DELL/Downloads/ConnexionBD3A44%20(3)/ConnexionBD3A44/src/gui/style1.css</file>
+        </group>
+    </open-files>
+</project-private>

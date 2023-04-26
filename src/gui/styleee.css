@@ -1,0 +1,33 @@
+#AnchorPane {
+    -fx-background-color: #f2f2f2;
+}
+
+#tabrec {
+    -fx-background-color: #ffffff;
+     -fx-background-color: #FFFFFF;
+}
+
+#id, #type, #description, #date {
+    -fx-text-fill: #000000;
+    -fx-background-color: #FFFFFF;
+}
+
+#refresh, #delete, #cancel, #update, #repondre, #mailen, #sms, #stat {
+    -fx-background-color: #337ab7;
+    -fx-text-fill: #ffffff;
+}
+
+#Trie {
+    -fx-background-color: #337ab7;
+    -fx-text-fill: #000000;
+}
+
+#Trie:hover {
+    -fx-background-color: #337ab7;
+}
+.title {
+    -fx-font-size: 30pt !important;
+}
+#tabrec .column-header > .label {
+    -fx-text-fill: #FF0000;
+}
