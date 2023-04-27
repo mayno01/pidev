@@ -1,0 +1,51 @@
+
+#AnchorPane {
+    -fx-background-color: #f2f2f2;
+}
+
+Label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+Button {
+    -fx-background-color: #2c3e50;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 40px;
+    -fx-cursor: hand;
+}
+
+Button:hover {
+    -fx-background-color: #34495e;
+}
+
+#uploadButton {
+    -fx-background-color: #27ae60;
+}
+
+#uploadButton:hover {
+    -fx-background-color: #2ecc71;
+}
+
+#selectedFileLabel {
+    -fx-padding: 10px;
+}
+
+#imageView {
+    -fx-border-radius: 10px;
+}
+
+#userNameLabel, #userEmailLabel {
+    -fx-padding: 5px;
+}
+
+#logoutr {
+    -fx-background-color: #e74c3c;
+}
+
+#logoutr:hover {
+    -fx-background-color: #c0392b;
+}

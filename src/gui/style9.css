@@ -1,0 +1,60 @@
+
+#AnchorPane {
+    -fx-background-color: #34495e;
+}
+
+Label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #fff;
+}
+
+PasswordField {
+    -fx-prompt-text-fill: #bdc3c7;
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #fff;
+}
+
+TextField {
+    -fx-prompt-text-fill: #bdc3c7;
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #fff;
+}
+
+Button {
+    -fx-background-color: #27ae60;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #fff;
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+}
+
+Button:hover {
+    -fx-background-color: #2ecc71;
+}
+
+#resetButton {
+    -fx-font-size: 18px;
+    -fx-text-fill: #fff;
+    -fx-background-color: #2980b9;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #fff;
+}
+
+#resetButton:hover {
+    -fx-background-color: #3498db;
+}
+
+#resetkey {
+    -fx-prompt-text-fill: #bdc3c7;
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #fff;
+}
+
