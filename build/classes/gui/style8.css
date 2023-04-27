@@ -1,0 +1,44 @@
+
+#AnchorPane {
+    -fx-background-color: linear-gradient(#667eea, #764ba2);
+}
+
+Label {
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-font-size: 18px;
+    -fx-text-fill: #2C3E50;
+}
+
+TextField {
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-background-color: #E5E5E5;
+    -fx-border-color: transparent;
+    -fx-border-radius: 20px;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 12px;
+    -fx-text-fill: #4D4D4D;
+}
+
+Button {
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-background-color: #2C3E50;
+    -fx-background-radius: 20px;
+    -fx-border-color: transparent;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 1);
+}
+
+Button:hover {
+    -fx-background-color: #34495E;
+}
+
+TextField:focused {
+    -fx-border-color: #2C3E50;
+}
+
+TextField:disabled {
+    -fx-opacity: 0.5;
+}
