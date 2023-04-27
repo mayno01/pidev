@@ -1,0 +1,58 @@
+
+#AnchorPane {
+    -fx-background-color: #F7F7F7;
+}
+
+#ExporterListe {
+   
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+      -fx-background-color: #D3D3D3;
+}
+
+#tabrec {
+    -fx-background-color: #FFFFFF;
+      -fx-alignment: center;
+     
+      
+}
+
+#id, #type, #description, #date, #etat, #reponse {
+    -fx-alignment: CENTER;
+}
+
+#Recherche {
+  
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+     -fx-background-color: #337ab7;
+}
+
+#refresh, #delete, #update , #stat {
+    -fx-background-color: #337ab7;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 5px;
+}
+
+#refresh:hover, #delete:hover, #update:hover {
+    -fx-background-color: #286090;
+}
+
+#Metier {
+    -fx-background-color: #337ab7;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+#ExporterListee {
+    -fx-background-color: #337ab7;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+#tabrec .column-header > .label {
+    -fx-text-fill: #FF0000;
+}
