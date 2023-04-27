@@ -27,7 +27,7 @@ public class NewFXMain1 extends Application {
         
         Parent root=FXMLLoader.load(getClass().
        
-           getResource("DashbordReclamation.fxml"));
+           getResource("Back.fxml"));
 
         Scene scene = new Scene(root);
         

@@ -5,24 +5,19 @@
  */
 package service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  *
- * @author wiemhjiri
+ * @author Saida
  */
-public interface IService<T> {
-    void insert(T t);
-  
-    void delete(int id);
-    T readById(int id);
-    ArrayList<T>readAll();
-        void add (T entity);
+public interface IService <T> {
+    void add (T entity);
     void update (T entity);
     void Delete (int id);
     List <T> Show();
     T getById(int id);
    
+    
     
 }
