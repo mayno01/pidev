@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="485.0" prefWidth="716.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="gui.RegisterUserController" stylesheets="@style10.css">
+   <style>
+       /* Add background color to the anchor pane */
+       -fx-background-color: #F8F8F8;
+   </style>
+   <children>
+      <TextField fx:id="emailU" layoutX="146.0" layoutY="87.0" style="-fx-background-color: transparent; -fx-border-color: #A0A0A0; -fx-border-width: 0 0 2 0; -fx-font-size: 14px; -fx-text-fill: #A0A0A0;" />
+      <TextField fx:id="nomU" layoutX="146.0" layoutY="149.0" style="-fx-background-color: transparent; -fx-border-color: #A0A0A0; -fx-border-width: 0 0 2 0; -fx-font-size: 14px; -fx-text-fill: #A0A0A0;" />
+      <PasswordField fx:id="PasswordU" layoutX="146.0" layoutY="217.0" style="-fx-background-color: transparent; -fx-border-color: #A0A0A0; -fx-border-width: 0 0 2 0; -fx-font-size: 14px; -fx-text-fill: #A0A0A0;" />
+      <Label layoutX="50.0" layoutY="92.0" text="Email :" style="-fx-text-fill: #A0A0A0; -fx-font-size: 14px;" />
+      <Label layoutX="50.0" layoutY="154.0" text="nom :" style="-fx-text-fill: #A0A0A0; -fx-font-size: 14px;" />
+      <Label layoutX="50.0" layoutY="222.0" text="Password :" style="-fx-text-fill: #A0A0A0; -fx-font-size: 14px;" />
+      <Label layoutX="392.0" layoutY="426.0" text="Already have an account ?" style="-fx-text-fill: #A0A0A0; -fx-font-size: 14px;" />
+      <Button layoutX="207.0" layoutY="269.0" mnemonicParsing="false" onAction="#RegisterU" text="Register" style="-fx-background-color: #F05E3B; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-padding: 10px 20px;" />
+      <Button layoutX="597.0" layoutY="421.0" mnemonicParsing="false" onAction="#LoginU" text="Login" style="-fx-background-color: #00C1D4; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-padding: 10px 20px;" />
+   </children>
+</AnchorPane>
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/GererUser.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/ModifyUser.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/NewFXMain.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/StatisticController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/LoginController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/service/UserCRUD.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/ResetPasswordController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/Login.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/style11.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/style7.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/RegisterUserController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/ForgetPassword.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/UserFace.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/util/DataSource.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/style8.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/entite/User.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/adminpic.jpg</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/style10.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/ModifyUserController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/UserFaceController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/GererUserController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/ForgetPasswordController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/NewFXMain1.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/ResetPassword.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/style9.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/service/IService.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/admoun.png</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/StatUser.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/RegisterUser.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/GestionUser/src/gui/style6.css</file>
+        </group>
+    </open-files>
+</project-private>

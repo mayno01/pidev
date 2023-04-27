@@ -1,0 +1,67 @@
+#AnchorPane {
+  background-color: #f9f9f9;
+  -fx-border-color: #ccc;
+  -fx-border-width: 2px;
+}
+
+#AnchorPane .table-view {
+  -fx-background-color: #fff;
+}
+
+#AnchorPane .table-view .column-header-background {
+  -fx-background-color: #f9f9f9;
+}
+
+#AnchorPane .table-view .column-header, 
+#AnchorPane .table-view .filler {
+  -fx-background-color: #f9f9f9;
+  -fx-padding: 5px;
+}
+
+#AnchorPane .table-view .column-header .label {
+  -fx-font-weight: bold;
+  -fx-font-size: 14px;
+}
+
+#AnchorPane .table-view .cell {
+  -fx-alignment: center-left;
+  -fx-font-size: 14px;
+  -fx-padding: 5px;
+}
+
+#AnchorPane .table-view .cell:odd {
+  -fx-background-color: #f0f0f0;
+}
+
+#AnchorPane .button {
+  -fx-background-color: #4CAF50;
+  -fx-text-fill: #fff;
+  -fx-font-size: 14px;
+  -fx-padding: 8px 16px;
+  -fx-border-radius: 2px;
+}
+
+#AnchorPane .button:hover {
+  -fx-background-color: #3e8e41;
+}
+
+#AnchorPane .text-field {
+  -fx-background-color: #f0f0f0;
+  -fx-font-size: 14px;
+  -fx-padding: 5px;
+  -fx-border-radius: 2px;
+}
+
+#AnchorPane .text-field:focused {
+  -fx-background-color: #fff;
+  -fx-border-color: #4CAF50;
+  -fx-border-width: 2px;
+}
+
+
+
+#AnchorPane {
+    -fx-background-image: url('admoun.png');
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
