@@ -1,0 +1,34 @@
+
+/* Apply a gradient background to the AnchorPane */
+#AnchorPane {
+    -fx-background-color: linear-gradient(#667eea, #764ba2);
+}
+
+/* Style the labels with a white font color */
+Label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+}
+
+/* Style the text fields with a light gray background color */
+TextField {
+    -fx-background-color: #f1f1f1;
+}
+
+/* Style the buttons with rounded corners and a bold font */
+Button {
+    -fx-font-weight: bold;
+    -fx-background-radius: 20px;
+}
+
+/* Style the Update button with a blue background color */
+Button#updateUser {
+    -fx-background-color: #007bff;
+    -fx-text-fill: #fff;
+}
+
+/* Style the Delete button with a red background color */
+Button#deleteUser {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: #fff;
+}

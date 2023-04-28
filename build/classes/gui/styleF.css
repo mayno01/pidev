@@ -1,0 +1,107 @@
+/*
+ * Empty Stylesheet file.
+ */.labelform{
+    -fx-font-weight: bold;
+}
+ 
+.box{
+    -fx-font-weight: bold;
+}
+ 
+.field{
+    -fx-font-weight: bold;
+}
+.btn{
+    -fx-font-weight: bold;
+    -fx-background-color: darkslateblue;
+    -fx-text-fill: white
+}
+
+.root {
+    -fx-background-image:url('formation.jpg');
+}
+  
+ #AnchorPane{
+    -fx-background-image:url('formation.jpg');
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1300 900;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+ #AnchorPane2{
+    -fx-background-image:url('welcome.jpg');
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1300 900;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+.table-view .column-header-background,
+.table-view .column-header-background .filler,
+.table-view .corner {
+	-fx-background-color: transparent;
+}
+.table-view .column-header {
+	-fx-background-color: darkslateblue;
+	-fx-border-color: darkslateblue;
+       
+}
+
+.table-view .column-header .label{
+	-fx-font-weight: bold; 
+	-fx-alignment: center-left;
+            -fx-text-fill: white
+
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  darkslateblue;
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color: darkslateblue;
+}
+
+.chart-bar {
+    -fx-bar-fill: #ffb703; 
+}
+
+
+.chart-title {
+  -fx-text-fill: #4682b4;
+  -fx-font-size: 1.6em;
+}
+
+.axis-label {
+  -fx-text-fill: #4682b4;
+}
+
+.chart-plot-background {
+    -fx-background-color: #e2ecfe;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #3278fa;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #3278fa;
+}
+.chart-alternative-row-fill {
+    -fx-fill: #99bcfd;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}

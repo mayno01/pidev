@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane stylesheets="@styleF.css" fx:id="AnchorPane" prefHeight="800.0" prefWidth="1280.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.FormationFxmlController">
+     <stylesheets>
+    <URL value="@styleF.css" />
+  </stylesheets>
+    <children>
+        <VBox layoutX="14.0" layoutY="113.0" prefHeight="400.0" prefWidth="120" spacing="25.0">
+            <children>
+                <Label styleClass="labelform" stylesheets="@style.css" text="ID" />
+                 <Label layoutX="10.0" layoutY="10.0" styleClass="labelform" stylesheets="@style.css" text="NOM: *" />
+                 <Label layoutX="10.0" layoutY="10.0" styleClass="labelform" stylesheets="@style.css" text="DESCRIPTION: *" />
+                <Label layoutX="10.0" layoutY="44.0" styleClass="labelform" stylesheets="@style.css" text="MEET: *" />
+                <Label layoutX="10.0" layoutY="27.0" styleClass="labelform" stylesheets="@style.css" text="PHOTO: *" />
+                <Label layoutX="10.0" layoutY="44.0" styleClass="labelform" stylesheets="@style.css" text="PRIX: *" />
+                 <Label layoutX="10.0" layoutY="10.0" styleClass="labelform" stylesheets="@style.css" text="CATEGORY: *" />
+
+
+            </children>
+        </VBox>
+        <VBox layoutX="135.0" layoutY="113.0" prefHeight="400.0" prefWidth="180.0" spacing="15.0">
+            <children>
+                <TextField fx:id="id" editable="false" styleClass="field" stylesheets="@styleF.css" />
+                <TextField fx:id="nom" layoutX="10.0" layoutY="10.0" styleClass="field" stylesheets="@styleF.css" />
+                <TextField fx:id="description" layoutX="10.0" layoutY="35.0" styleClass="field" stylesheets="@styleF.css" />
+                 <TextField fx:id="meet" layoutX="10.0" layoutY="35.0" styleClass="field" stylesheets="@styleF.css" />
+                 <TextField fx:id="photo" onMouseClicked="#openFileChooser"  layoutX="10.0" layoutY="35.0" styleClass="field" stylesheets="@styleF.css" />
+                  <!-- <TextField fx:id="photo" onMouseClicked="" layoutX="10.0" layoutY="35.0" styleClass="field" stylesheets="@style.css" />
+               -->
+                   <TextField fx:id="prix" layoutX="10.0" layoutY="35.0" styleClass="field" stylesheets="@styleF.css" />
+                <ComboBox fx:id="category" prefHeight="25.0" prefWidth="186.0" styleClass="box" stylesheets="@styleF.css" />
+            </children>
+        </VBox>
+        <Button fx:id="bsave" layoutX="80.0" layoutY="500" mnemonicParsing="false" onAction="#saveEvent" prefHeight="33.0" prefWidth="71.0" styleClass="btn" stylesheets="@styleF.css" text="Save">
+            <graphic>
+            </graphic>
+            <font>
+            </font>
+        </Button>
+        <Button fx:id="bupdate" layoutX="180.0" layoutY="500" mnemonicParsing="false" onAction="#updateEvent" prefHeight="33.0" prefWidth="71.0" styleClass="btn" stylesheets="@styleF.css" text="Edit">
+            <graphic>
+            </graphic>
+            <font>
+            </font>
+        </Button>
+        <Button fx:id="bdelete" layoutX="280.0" layoutY="500" mnemonicParsing="false" onAction="#deleteEvent" prefHeight="33.0" prefWidth="71.0" styleClass="btn" stylesheets="@styleF.css" text="Delete">
+            <graphic>
+            </graphic>
+            <font>
+            </font>
+        </Button>
+        <Button layoutX="180.0" layoutY="560" mnemonicParsing="false" onAction="#clearEvent" prefHeight="33.0" prefWidth="71.0" styleClass="btn" stylesheets="@style.css" text="Reset">
+            <font>
+            </font>
+            <graphic>
+            </graphic>
+        </Button>
+        <TableView fx:id="table" layoutX="400.0" layoutY="113.0" onMouseClicked="#tablehandleButtonAction" prefHeight="600" prefWidth="800"  stylesheets="@styleF.css">
+            <columns>
+                <TableColumn fx:id="colid" prefWidth="110.0" text="ID" />
+                <TableColumn fx:id="colnom" prefWidth="127.0" text="NOM" />
+                <TableColumn fx:id="coldescription" prefWidth="121.0" text="DESCRIPTION" />
+                 <TableColumn fx:id="colphoto" prefWidth="121.0" text="PHOTO" />
+                <TableColumn fx:id="colprix" prefWidth="121.0" text="PRIX" />
+                <TableColumn fx:id="colmeet" prefWidth="122.0" text="MEET" />
+                <TableColumn fx:id="colcategory" prefWidth="122.0" text="CATEGORY" />
+
+            </columns>
+        </TableView>
+        <Pane layoutX="99.0" layoutY="16.0" prefHeight="76.0" prefWidth="634.0" stylesheets="@styleF.css">
+            <children>
+                <Label fx:id="title" layoutX="400" layoutY="11.0" text="Formation Management" textFill="#000000" >
+                    <font>
+                    </font>
+                    <graphic>
+                    </graphic>
+                </Label>
+            </children>
+        </Pane>
+        <Label layoutX="706.0" layoutY="560" styleClass="labelform" stylesheets="@styleF.css" text="" />
+    </children>
+</AnchorPane>
