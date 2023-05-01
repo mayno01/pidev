@@ -34,7 +34,7 @@ public class EvenementService implements IServiceI<Evenement>{
     
     @Override
     public void add(Evenement entity) {
-String sql = "insert into evenment(title,description,date_debut,date_fin) Values(?,?,?,?)";
+String sql = "insert into evenement(title,description,date_debut,date_fin) Values(?,?,?,?)";
         try {
             ste=conn.prepareStatement(sql);
             ste.setString(2, entity.getDescription());
@@ -52,7 +52,7 @@ String sql = "insert into evenment(title,description,date_debut,date_fin) Values
 
     @Override
     public void update(Evenement entity) {
-        String sql = "update  evenment set title= ? ,description= ? ,date_debut= ?,date_fin=? where id= ?";
+        String sql = "update  Evenement set title= ? ,description= ? ,date_debut= ?,date_fin=? where id= ?";
         try {
             ste=conn.prepareStatement(sql);
             ste.setString(2, entity.getDescription());
@@ -63,7 +63,7 @@ String sql = "insert into evenment(title,description,date_debut,date_fin) Values
                
             
             ste.executeUpdate();
-            System.out.println("Evenment Updated");
+            System.out.println("Evenement Updated");
         } catch (SQLException ex) {
             System.out.println(ex.getMessage());
         } 
@@ -71,7 +71,7 @@ String sql = "insert into evenment(title,description,date_debut,date_fin) Values
 
     @Override
     public void Delete(int id) {
-         String sql = "DELETE from evenment where id= '"+id+"' "; 
+         String sql = "DELETE from Evenement where id= '"+id+"' "; 
         String sql1="DELETE from sponsor where event_id= '"+id+"' "; 
         try{
 
@@ -79,7 +79,7 @@ String sql = "insert into evenment(title,description,date_debut,date_fin) Values
            Statement st= conn.createStatement();
            st.executeUpdate(sql1);        
            st.executeUpdate(sql);
-           System.out.println("Evenment supprimé avec succés !");
+           System.out.println("Evenement supprimé avec succés !");
        }catch (SQLException ex) {
             System.out.println(ex.getMessage());
         }  
@@ -92,7 +92,7 @@ String sql = "insert into evenment(title,description,date_debut,date_fin) Values
         List<Sponsor> lis=FXCollections.observableArrayList();
         try{
         Statement st= conn.createStatement();
-        String query = "select * from evenment";
+        String query = "select * from Evenement";
         
         ResultSet rs;
         rs = st.executeQuery(query);
@@ -122,7 +122,7 @@ String sql = "insert into evenment(title,description,date_debut,date_fin) Values
         Evenement comp=new Evenement();
         try{
         Statement st= conn.createStatement();
-        String query = "select * from evenment where id="+id+"";
+        String query = "select * from Evenement where id="+id+"";
         
         ResultSet rs;
         rs = st.executeQuery(query);

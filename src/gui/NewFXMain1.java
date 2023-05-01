@@ -1,88 +1,46 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package gui;
 
-import util.Constants;
+import java.io.IOException;
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.paint.Color;
-import javafx.stage.Screen;
+import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-import java.util.Objects;
-import static javafx.application.Application.launch;
-
+/**
+ *
+ * @author wiemhjiri
+ */
 public class NewFXMain1 extends Application {
+    
+    @Override
+    public void start(Stage primaryStage) throws IOException {
+        
+        Parent root=FXMLLoader.load(getClass().
+       
+           getResource("Back.fxml"));
 
-    public static Stage mainStage;
-    private static NewFXMain1 instance;
+        Scene scene = new Scene(root);
+        
+        primaryStage.setTitle("Hello!");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         launch(args);
     }
-
-    public static NewFXMain1 getInstance() {
-        if (instance == null) {
-            instance = new NewFXMain1();
-        }
-        return instance;
-    }
-
-
-    @Override
-    public void start(Stage primaryStage) {
-        mainStage = primaryStage;
-        loadBack();
-    }
-
-  
-
-    public void loadFront() {
-        loadScene(
-                Constants.FXML_FRONT_MAIN_WINDOW,
-                "",
-                800,
-                600,
-                false
-        );
-    }
-
-    public void loadBack() {
-        loadScene(
-                Constants.FXML_BACK_MAIN_WINDOW,
-                "",
-                1000,
-                600,
-                false
-        );
-    }
-
-    public void logout() {
-
-      
-    }
-
-    private void loadScene(String fxmlLink, String title, int width, int height, boolean isAuthentification) {
-        try {
-            Stage primaryStage = mainStage;
-            primaryStage.close();
-
-            Scene scene = new Scene(FXMLLoader.load(Objects.requireNonNull(getClass().getResource(fxmlLink))));
-            scene.setFill(Color.TRANSPARENT);
-
-            //primaryStage.getIcons().add(new Image("app/images/app-icon.png"));
-            primaryStage.setTitle(title);
-            primaryStage.setWidth(width);
-            primaryStage.setHeight(height);
-            primaryStage.setMinWidth(width);
-            primaryStage.setMinHeight(height);
-            primaryStage.setScene(scene);
-            primaryStage.setX((Screen.getPrimary().getBounds().getWidth() / 2) - (width / 2.0));
-            primaryStage.setY((Screen.getPrimary().getBounds().getHeight() / 2) - (height / 2.0));
-
-            primaryStage.show();
-        } catch (IOException ex) {
-            System.out.println(ex.getMessage());
-        }
-    }
+    
 }

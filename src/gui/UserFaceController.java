@@ -141,8 +141,8 @@ public void setEmail(String email) {
                 byte[] imageData = Base64.getDecoder().decode(pictureAsString); // Decode the String as a byte array
                 Image image = new Image(new ByteArrayInputStream(imageData));
                 imageView.setImage(image);
-                imageView.setFitWidth(77); // set the desired width
-                imageView.setFitHeight(77); // set the desired height
+                imageView.setFitWidth(200); // set the desired width
+                imageView.setFitHeight(200); // set the desired height
             }
             String name = rs.getString("nom");
             userNameLabel.setText(name);
@@ -181,11 +181,5 @@ public void setEmail(String email) {
     } catch (IOException e) {
         e.printStackTrace();
     }
-    }
-
-    @FXML
-    private void frontend(ActionEvent event) {
-        MainBack.getInstance().loadBack();
-        
     }
 }
