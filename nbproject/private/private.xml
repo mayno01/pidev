@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/style3.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/EditReclamation.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/service/IServiceI.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/entite/Reclamation.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/EditReponseController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/MailController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/mail.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/service/Smstwilio.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/entite/Sponsor.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/AddReclamation.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/service/EquipeService.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/style4.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/DashbordReponse.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/style2.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/SMSController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/entite/Pdf.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/service/SendEmailWthImage.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/EditReponse.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/AddReponse.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/EditReclamationController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/DashbordReclamationController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/service/ReponseService.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/service/EvenementService.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/entite/ReponseRec.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/SMS.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/style.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/entite/Reponse.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/Stat.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/service/SponsorService.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/style1.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/DashbordReponseController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/AddReponseController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/service/IService.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/DashbordReclamation.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/service/ReclamationService.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/util/DataSource.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/BackI.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/styleee.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/Recuperation.fxml</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/stylee.css</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/RecuperationController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/AddReclamationController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/Reprec.csv</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/NewFXMain1.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/StatController.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/entite/Evenement.java</file>
+            <file>file:/C:/Users/aminh/Desktop/myproject/up/update/integ2/integ1/GestionUser/src/gui/BackIController.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,70 @@
+
+/* Add background color to the anchor pane */
+#AnchorPane {
+  -fx-background-color: #F8F8F8;
+}
+
+/* Style for the text fields */
+.TextField {
+  -fx-background-color: transparent;
+  -fx-border-color: #A0A0A0;
+  -fx-border-width: 0 0 2 0;
+  -fx-font-size: 14px;
+  -fx-text-fill: #A0A0A0;
+}
+
+/* Style for the labels */
+.Label {
+  -fx-text-fill: #A0A0A0;
+  -fx-font-size: 14px;
+}
+
+/* Style for the buttons */
+.Button {
+  -fx-font-size: 14px;
+  -fx-font-weight: bold;
+  -fx-padding: 10px 20px;
+  -fx-background-radius: 30px;
+}
+
+/* Style for the register button */
+.Button#register {
+  -fx-background-color: #F05E3B;
+  -fx-text-fill: white;
+}
+
+/* Style for the login button */
+.Button#login {
+  -fx-background-color: #00C1D4;
+  -fx-text-fill: white;
+}
+
+/* Style for the password field */
+.PasswordField {
+  -fx-background-color: transparent;
+  -fx-border-color: #A0A0A0;
+  -fx-border-width: 0 0 2 0;
+  -fx-font-size: 14px;
+  -fx-text-fill: #A0A0A0;
+  -fx-background-insets: 0 0 5 0;
+}
+
+/* Style for the anchor pane when focused */
+#AnchorPane:focused {
+  -fx-background-color: #F5F5F5;
+}
+
+/* Style for the text fields when focused */
+.TextField:focused {
+  -fx-border-color: #00C1D4;
+}
+
+/* Style for the password field when focused */
+.PasswordField:focused {
+  -fx-border-color: #00C1D4;
+}
+
+/* Style for the label when hovered */
+.Label:hover {
+  -fx-text-fill: #00C1D4;
+}

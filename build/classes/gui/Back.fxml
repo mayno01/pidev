@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import jfxtras.scene.control.agenda.Agenda?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.BackController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="601.0" prefWidth="182.0" spacing="30.0" style="-fx-background-color: bcac9b;">
+         <children>
+            <Button fx:id="btnMenuAgenda" layoutX="34.0" layoutY="257.0" mnemonicParsing="false" onAction="#fnMenuAgenda" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #ffffff;" text="Calendrier" textFill="#bcac9b">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMenuCompetition" mnemonicParsing="false" onAction="#fnMenuCompetition" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #ffffff;" text="Comptetion" textFill="#bcac9b">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMenuEquipe" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#fnMenuEquipe" prefHeight="39.0" prefWidth="131.0" style="-fx-background-color: #ffffff;" text="Equipe" textFill="#bcac9b">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <StackPane layoutX="182.0" prefHeight="601.0" prefWidth="618.0">
+         <children>
+            <Pane fx:id="pnFormComp" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <HBox layoutX="67.0" layoutY="145.0" prefHeight="351.0" prefWidth="500.0">
+                     <children>
+                        <VBox prefHeight="351.0" prefWidth="229.0" spacing="20.0">
+                           <children>
+                              <Label prefHeight="64.0" prefWidth="229.0" text="Nom">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="10.0" prefHeight="64.0" prefWidth="229.0" text="Description">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="74.0" prefHeight="64.0" prefWidth="229.0" text="Debut">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="138.0" prefHeight="64.0" prefWidth="229.0" text="Fin">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="351.0" prefWidth="272.0" spacing="40.0">
+                           <children>
+                              <TextField fx:id="tfNomComp" prefHeight="52.0" prefWidth="272.0" />
+                              <TextField fx:id="tfDescComp" layoutX="10.0" layoutY="10.0" prefHeight="48.0" prefWidth="272.0" />
+                              <DatePicker fx:id="tfDebutComp" prefHeight="40.0" prefWidth="271.0" />
+                              <DatePicker fx:id="tfFinComp" layoutX="10.0" layoutY="114.0" prefHeight="40.0" prefWidth="271.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Label fx:id="lbTitleAjoutCompetition" layoutX="39.0" layoutY="53.0" prefHeight="48.0" prefWidth="296.0" text="Ajouter une Competition" textFill="#bcac9b">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbTitleModifyCompetition" layoutX="39.0" layoutY="53.0" prefHeight="48.0" prefWidth="296.0" text="Modifier une Competition" textFill="#bcac9b">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnConfCompetition" layoutX="234.0" layoutY="512.0" mnemonicParsing="false" onAction="#fnConfCompetition" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #bcac9b;" text="Confirmer" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane fx:id="pnFormEquipe" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <HBox layoutX="67.0" layoutY="145.0" prefHeight="351.0" prefWidth="500.0">
+                     <children>
+                        <VBox prefHeight="351.0" prefWidth="229.0" spacing="20.0">
+                           <children>
+                              <Label prefHeight="64.0" prefWidth="229.0" text="Nom">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="10.0" prefHeight="64.0" prefWidth="229.0" text="Description">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="74.0" prefHeight="64.0" prefWidth="229.0" text="Competition">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="138.0" prefHeight="64.0" prefWidth="229.0" text="Date">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="351.0" prefWidth="272.0" spacing="40.0">
+                           <children>
+                              <TextField fx:id="tfNomEq" prefHeight="52.0" prefWidth="272.0" />
+                              <TextField fx:id="tfDescEq" layoutX="10.0" layoutY="10.0" prefHeight="48.0" prefWidth="272.0" />
+                              <ComboBox fx:id="tfCompEq" prefHeight="50.0" prefWidth="284.0" />
+                              <DatePicker fx:id="tfDateEq" layoutX="10.0" layoutY="114.0" prefHeight="40.0" prefWidth="271.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Label fx:id="lbTitleAjoutEquipe" layoutX="39.0" layoutY="53.0" prefHeight="48.0" prefWidth="296.0" text="Ajouter une Equipe" textFill="#bcac9b">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbTitleModifyEquipe" layoutX="39.0" layoutY="53.0" prefHeight="48.0" prefWidth="296.0" text="Modifier une Equipe" textFill="#bcac9b">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnConfEq" layoutX="234.0" layoutY="512.0" mnemonicParsing="false" onAction="#fnConfEq" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #bcac9b;" text="Confirmer" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane fx:id="pnEquipe" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <TableView fx:id="tvEquipe" layoutX="48.0" layoutY="101.0" onMouseClicked="#fnSelectedEquipe" prefHeight="386.0" prefWidth="545.0">
+                     <columns>
+                        <TableColumn fx:id="colNomEquipe" prefWidth="75.0" text="Nom" />
+                        <TableColumn fx:id="colDescEquipe" prefWidth="247.0" text="Description" />
+                        <TableColumn fx:id="colCompEquipe" prefWidth="107.0" text="Competition" />
+                        <TableColumn fx:id="colDateEquipe" prefWidth="115.0" text="Date" />
+                     </columns>
+                  </TableView>
+                  <Button fx:id="btnAjoutEquipe" layoutX="64.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnAjoutEquipe" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #bcac9b;" text="Ajouter" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnModifyEquipe" layoutX="219.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnModifyEquipe" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #bcac9b;" text="Modifier" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnSupprimerEquipe" layoutX="383.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnSupprimerEquipe" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #bcac9b;" text="Supprimer" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="48.0" layoutY="26.0" prefHeight="48.0" prefWidth="296.0" text="Equipe" textFill="#bcac9b">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbidEq" layoutX="383.0" layoutY="50.0" visible="false" />
+                  <TextField fx:id="tfRechercher" layoutX="48.0" layoutY="74.0" prefHeight="25.0" prefWidth="215.0" promptText="Rechercher.." />
+               </children>
+            </Pane>
+            <Pane fx:id="pnCompetition" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <TableView fx:id="tvCompetition" layoutX="48.0" layoutY="101.0" onMouseClicked="#fnSelectedCompetition" prefHeight="386.0" prefWidth="545.0">
+                    <columns>
+                      <TableColumn fx:id="colNom" prefWidth="75.0" text="Nom" />
+                      <TableColumn fx:id="colDesc" prefWidth="247.0" text="Description" />
+                        <TableColumn fx:id="colDebut" prefWidth="107.0" text="Debut" />
+                        <TableColumn fx:id="colFin" prefWidth="115.0" text="Fin" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="btnAjoutCompetition" layoutX="64.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnAjoutCompetition" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #bcac9b;" text="Ajouter" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnModifyCompetition" layoutX="219.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnModifyCompetition" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #bcac9b;" text="Modifier" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnSupprimerCompetition" layoutX="383.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnSupprimerCompetition" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #bcac9b;" text="Supprimer" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="48.0" layoutY="12.0" prefHeight="48.0" prefWidth="296.0" text="Competition" textFill="#bcac9b">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbIdComp" layoutX="397.0" layoutY="50.0" visible="false" />
+                  <DatePicker fx:id="tfDebutFilter" layoutX="48.0" layoutY="60.0" promptText="Debut" />
+                  <DatePicker fx:id="tfFinFilter" layoutX="242.0" layoutY="59.0" promptText="Fin" />
+                  <Button fx:id="btnFilter" layoutX="430.0" layoutY="52.0" mnemonicParsing="false" onAction="#fnFilter" prefHeight="17.0" prefWidth="71.0" style="-fx-background-color: #bcac9b;" text="Filter" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnReset" layoutX="518.0" layoutY="51.0" mnemonicParsing="false" onAction="#fnReset" prefHeight="17.0" prefWidth="71.0" style="-fx-background-color: #bcac9b;" text="Reset" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane fx:id="pnAgenda" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <Label layoutX="59.0" layoutY="23.0" prefHeight="48.0" prefWidth="296.0" text="Calendrier" textFill="#bcac9b">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Agenda fx:id="PlanningAgenda" layoutX="90.0" layoutY="145.0" prefHeight="336.0" prefWidth="458.0" />
+               </children>
+            </Pane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

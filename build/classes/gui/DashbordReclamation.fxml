@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="510.0" prefWidth="792.0" stylesheets="@styleee.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DashbordReclamationController">
+   <children>
+      <TableView fx:id="tabrec" layoutX="161.0" layoutY="124.0" prefHeight="246.0" prefWidth="422.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="53.0" text="ID" />
+            <TableColumn fx:id="description" prefWidth="97.0" text="Description" />
+            <TableColumn fx:id="date" text="Date" />
+          <TableColumn fx:id="type" prefWidth="191.0" text="Type" />
+        </columns>
+     
+      </TableView>
+      <Button fx:id="refresh" layoutX="48.0" layoutY="436.0" mnemonicParsing="false" onAction="#Actualiser" text="refresh" />
+      <Button fx:id="delete" layoutX="156.0" layoutY="436.0" mnemonicParsing="false" onAction="#Supprimer" text="delete" />
+      <Button fx:id="cancel" layoutX="264.0" layoutY="436.0" mnemonicParsing="false" onAction="#retour" text="Return" />
+    <Label layoutX="218.0" layoutY="20.0" styleClass="title" text="liste reclamations" />
+      <Button fx:id="update" layoutX="358.0" layoutY="436.0" mnemonicParsing="false" onAction="#modifier" text="modifier" />
+      <Button fx:id="repondre" layoutX="474.0" layoutY="436.0" mnemonicParsing="false" onAction="#repondre" text="repondre" textAlignment="CENTER" />
+      <ComboBox fx:id="Trie" layoutX="634.0" layoutY="210.0" onAction="#Trie" prefWidth="150.0" promptText="E/C/Ev" />
+      <Button fx:id="mailen" layoutX="14.0" layoutY="18.0" mnemonicParsing="false" onAction="#Mail" text="Envoyer un mail" />
+      <Button fx:id="sms" layoutX="672.0" layoutY="18.0" mnemonicParsing="false" onAction="#SMSS" text="Envoyer SMS" />
+      <Button fx:id="stat" layoutX="659.0" layoutY="277.0" mnemonicParsing="false" onAction="#statt" text="statistiques " />
+      
+   </children>
+</AnchorPane>
