@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.BackIController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="601.0" prefWidth="182.0" spacing="30.0" style="-fx-background-color: #2296EA;">
+         <children>
+            <Button fx:id="btnMenuEvent" mnemonicParsing="false" onAction="#fnMenuEvent" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #ffffff;" text="Evenement" textFill="#2296EA">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMenuSponsor" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#fnMeuSponsor" prefHeight="39.0" prefWidth="131.0" style="-fx-background-color: #ffffff;" text="Sponsor" textFill="#2296EA">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <StackPane layoutX="182.0" prefHeight="601.0" prefWidth="618.0">
+         <children>
+            <Pane fx:id="pnFormSponsor" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <HBox layoutX="67.0" layoutY="145.0" prefHeight="351.0" prefWidth="500.0">
+                     <children>
+                        <VBox prefHeight="351.0" prefWidth="229.0" spacing="20.0">
+                           <children>
+                              <Label prefHeight="64.0" prefWidth="229.0" text="Nom">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="10.0" prefHeight="64.0" prefWidth="229.0" text="Budget">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="74.0" prefHeight="64.0" prefWidth="229.0" text="Event">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="351.0" prefWidth="272.0" spacing="40.0">
+                           <children>
+                              <TextField fx:id="tfNomSponsor" prefHeight="52.0" prefWidth="272.0" />
+                              <TextField fx:id="tfBudgetSp" layoutX="10.0" layoutY="10.0" prefHeight="48.0" prefWidth="272.0" />
+                              <ComboBox fx:id="tfEventSp" prefHeight="50.0" prefWidth="284.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Label fx:id="lbTitleAjoutSp" layoutX="39.0" layoutY="53.0" prefHeight="48.0" prefWidth="296.0" text="Ajouter un Sponsor" textFill="#2296EA">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbTitleModifySp" layoutX="39.0" layoutY="53.0" prefHeight="48.0" prefWidth="296.0" text="Modifier un Sponsor" textFill="#2296EA">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnConfSp" layoutX="234.0" layoutY="512.0" mnemonicParsing="false" onAction="#fnConfSp" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #2296EA;" text="Confirmer" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane fx:id="pnFormEvent" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <HBox layoutX="67.0" layoutY="145.0" prefHeight="351.0" prefWidth="500.0">
+                     <children>
+                        <VBox prefHeight="351.0" prefWidth="229.0" spacing="20.0">
+                           <children>
+                              <Label prefHeight="64.0" prefWidth="229.0" text="Nom">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="10.0" prefHeight="64.0" prefWidth="229.0" text="Description">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="74.0" prefHeight="64.0" prefWidth="229.0" text="Debut">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="138.0" prefHeight="64.0" prefWidth="229.0" text="Fin">
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="351.0" prefWidth="272.0" spacing="40.0">
+                           <children>
+                              <TextField fx:id="tfNomEvent" prefHeight="52.0" prefWidth="272.0" />
+                              <TextField fx:id="tfDescEvent" layoutX="10.0" layoutY="10.0" prefHeight="48.0" prefWidth="272.0" />
+                              <DatePicker fx:id="tfDebutEvent" prefHeight="40.0" prefWidth="271.0" />
+                              <DatePicker fx:id="tfFinEvent" layoutX="10.0" layoutY="114.0" prefHeight="40.0" prefWidth="271.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Label fx:id="lbTitleAjoutEvent" layoutX="39.0" layoutY="53.0" prefHeight="48.0" prefWidth="296.0" text="Ajouter un Evenement" textFill="#2296EA">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbTitleModifyEvent" layoutX="39.0" layoutY="53.0" prefHeight="48.0" prefWidth="296.0" text="Modifier un Evenement" textFill="#2296EA">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnConfEvent" layoutX="234.0" layoutY="512.0" mnemonicParsing="false" onAction="#fnConfEvent" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #2296EA;" text="Confirmer" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane fx:id="pnSponsor" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <TableView fx:id="tvSponsor" layoutX="48.0" layoutY="101.0" onMouseClicked="#fnSelectedEquipe" prefHeight="386.0" prefWidth="545.0">
+                     <columns>
+                        <TableColumn fx:id="colNomSponsor" prefWidth="178.0" text="Nom" />
+                        <TableColumn fx:id="colEventSponsor" prefWidth="186.0" text="Event" />
+                        <TableColumn fx:id="colBudgetSponsor" prefWidth="180.0" text="Budget" />
+                     </columns>
+                  </TableView>
+                  <Button fx:id="btnAjoutSponsor" layoutX="64.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnAjoutSponsor" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #2296EA;" text="Ajouter" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnModifySponsor" layoutX="219.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnModifySponsor" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #2296EA;" text="Modifier" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnSupprimerSponsor" layoutX="383.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnSupprimerSponsor" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #2296EA;" text="Supprimer" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="48.0" layoutY="26.0" prefHeight="48.0" prefWidth="296.0" text="Sponsor" textFill="#2296EA">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbidSp" layoutX="383.0" layoutY="50.0" visible="false" />
+                  <TextField fx:id="tfRechercher" layoutX="48.0" layoutY="67.0" promptText="Rechercher" />
+               </children>
+            </Pane>
+            <Pane fx:id="pnEvent" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <TableView fx:id="tvEvent" layoutX="48.0" layoutY="101.0" onMouseClicked="#fnSelectedCompetition" prefHeight="386.0" prefWidth="553.0">
+                    <columns>
+                      <TableColumn fx:id="colNom" prefWidth="75.0" text="title" />
+                      <TableColumn fx:id="colDesc" prefWidth="187.0" text="Description" />
+                        <TableColumn fx:id="colDebut" prefWidth="81.0" text="Debut" />
+                        <TableColumn fx:id="colFin" prefWidth="69.0" text="Fin" />
+                        <TableColumn fx:id="colBudget" prefWidth="140.0" text="Total Budget" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="btnAjoutEvent" layoutX="14.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnAjoutEvent" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #2296EA;" text="Ajouter" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnModifyEvent" layoutX="325.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnModifyEvent" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #2296EA;" text="Modifier" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnSupprimerEvent" layoutX="466.0" layoutY="520.0" mnemonicParsing="false" onAction="#fnSupprimerEvent" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #2296EA;" text="Supprimer" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="48.0" layoutY="26.0" prefHeight="48.0" prefWidth="296.0" text="Evenement" textFill="#2296EA">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbIdEvent" layoutX="397.0" layoutY="50.0" visible="false" />
+               </children>
+            </Pane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+/* Set background color and font */
+#AnchorPane {
+-fx-background-color: #F2F2F2;
+-fx-font-family: Arial;
+}
+
+/* Style the upload button */
+#uploadButton {
+-fx-background-color: #3498DB;
+-fx-text-fill: white;
+-fx-font-size: 12px;
+-fx-padding: 5px 10px;
+-fx-border-radius: 3px;
+}
+
+/* Style the selected file label */
+#selectedFileLabel {
+-fx-font-size: 12px;
+-fx-text-fill: #7F8C8D;
+}
+
+/* Style the user name label */
+#userNameLabel {
+-fx-font-size: 14px;
+-fx-font-weight: bold;
+}
+
+/* Style the user email label */
+#userEmailLabel {
+-fx-font-size: 12px;
+-fx-text-fill: #7F8C8D;
+}
+
+/* Style the profile picture */
+#profilePicture {
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0, 0, 0);
+-fx-border-radius: 50%;
+}
+
+/* Style the home button */
+Button {
+-fx-background-color: #3498DB;
+-fx-text-fill: white;
+-fx-font-size: 14px;
+-fx-font-weight: bold;
+-fx-padding: 5px 15px;
+-fx-border-radius: 3px;
+}
+
+/* Style the image view */
+#imageView {
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0, 0, 0);
+}

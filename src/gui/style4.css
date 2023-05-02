@@ -1,0 +1,27 @@
+
+/* style5.css */
+
+#AnchorPane {
+    -fx-background-color: #F2F2F2; /* set the background color */
+}
+
+.choice-box {
+    -fx-background-color: #EFEFEF; /* set the background color for the ChoiceBox */
+}
+
+.text-area {
+    -fx-background-color: #EFEFEF; /* set the background color for the TextArea */
+}
+
+.label {
+    -fx-text-fill: #1E90FF; /* set the text color for the Label */
+}
+
+.button {
+    -fx-background-color: #1E90FF; /* set the background color for the Button */
+    -fx-text-fill: white; /* set the text color for the Button */
+}
+
+.button:hover {
+    -fx-background-color: #007FFF; /* set the background color for the Button when hovering */
+}

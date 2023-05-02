@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane stylesheets="@styleF.css" fx:id="AnchorPane2" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.CategoryFxmlController">
+   <children>
+        <VBox layoutX="14.0" layoutY="113.0" prefHeight="200" prefWidth="120" spacing="25.0">
+            <children>
+                <Label styleClass="labelform" stylesheets="@styleF.css" text="ID" />
+                
+                 <Label layoutX="10.0" layoutY="10.0" styleClass="labelform" stylesheets="@styleF.css" text="TITRE" />
+  
+            </children>
+        </VBox>
+        <VBox layoutX="135.0" layoutY="113.0" prefHeight="200" prefWidth="180.0" spacing="15.0">
+            <children>
+                <TextField fx:id="id" editable="false" styleClass="field" stylesheets="@styleF.css" />
+                <TextField fx:id="titre" layoutX="10.0" layoutY="10.0" styleClass="field" stylesheets="@styleF.css" />
+         
+            </children>
+        </VBox>
+        <Button fx:id="bsave" layoutX="80.0" layoutY="220" mnemonicParsing="false" onAction="#saveEvent" prefHeight="33.0" prefWidth="71.0" styleClass="btn" stylesheets="@style.css" text="Save">
+            <graphic>
+            </graphic>
+            <font>
+            </font>
+        </Button>
+        <Button fx:id="bupdate" layoutX="180.0" layoutY="220" mnemonicParsing="false" onAction="#updateEvent" prefHeight="33.0" prefWidth="71.0" styleClass="btn" stylesheets="@style.css" text="Edit">
+            <graphic>
+            </graphic>
+            <font>
+            </font>
+        </Button>
+        <Button fx:id="bdelete" layoutX="280.0" layoutY="220" mnemonicParsing="false" onAction="#deleteEvent" prefHeight="33.0" prefWidth="71.0" styleClass="btn" stylesheets="@style.css" text="Delete">
+            <graphic>
+            </graphic>
+            <font>
+            </font>
+        </Button>
+        <Button layoutX="180.0" layoutY="260" mnemonicParsing="false" onAction="#clearEvent" prefHeight="33.0" prefWidth="71.0" styleClass="btn" stylesheets="@style.css" text="Reset">
+            <font>
+            </font>
+            <graphic>
+            </graphic>
+        </Button>
+        <TableView fx:id="table" layoutX="400.0" layoutY="110.0" onMouseClicked="#tablehandleButtonAction" prefHeight="270" prefWidth="300" stylesheets="@style.css">
+            <columns>
+                <TableColumn fx:id="colid" prefWidth="148" text="ID" />
+                <TableColumn fx:id="coltitre" prefWidth="148.0" text="TITRE" />
+              
+            </columns>
+        </TableView>
+        <Pane layoutX="99.0" layoutY="16.0" prefHeight="76.0" prefWidth="634.0" stylesheets="@style.css">
+            <children>
+                <Label  fx:id="title"  layoutX="113.0" layoutY="11.0" text="ADD CATEGORY"  textFill="#000000">
+                    <font>
+                    </font>
+                    <graphic>
+                    </graphic>
+                </Label>
+            </children>
+        </Pane>
+        <Label layoutX="706.0" layoutY="560" styleClass="labelform" stylesheets="@style.css" text="" />
+    </children>
+</AnchorPane>
